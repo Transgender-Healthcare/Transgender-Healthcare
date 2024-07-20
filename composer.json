@@ -1,10 +1,11 @@
 {
   "require": {
     "paigejulianne/picoorm": "@dev",
-    "toshy/bunnynet-php": "^4.0",
-    "geocoder-php/google-maps-provider": "^4.7",
-    "symfony/http-client": "^6.4",
-    "google/cloud-billing": "^1.9"
+    "toshy/bunnynet-php": "@stable",
+    "geocoder-php/google-maps-provider": "@stable",
+    "symfony/http-client": "@stable",
+    "google/cloud-billing": "@stable",
+    "smarty/smarty": "@stable"
   },
   "config": {
     "allow-plugins": {
