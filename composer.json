@@ -1,5 +1,14 @@
 {
   "require": {
-    "paigejulianne/picoorm": "@dev"
+    "paigejulianne/picoorm": "@dev",
+    "toshy/bunnynet-php": "^4.0",
+    "geocoder-php/google-maps-provider": "^4.7",
+    "symfony/http-client": "^6.4",
+    "google/cloud-billing": "^1.9"
+  },
+  "config": {
+    "allow-plugins": {
+      "php-http/discovery": true
+    }
   }
 }
