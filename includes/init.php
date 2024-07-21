@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 // include dependencies
 require_once __DIR__ . "/../vendor/autoload.php";
 
@@ -8,8 +10,10 @@ spl_autoload_register(function ($class) {
         require_once __DIR__ . '/../classes/' . $class . '.php';
     });
 
-// include configuration
-require_once 'config.inc.php';
+
+// setup PicoPDO
+$GLOBALS['_PICO_PDO'] = new PDO('mysql:host=localhost;dbname=tghc-dev', 'tghc-dev', ')8CcJTWQBzuYYb(g');
+
 
 // initialize smarty
 global $smarty;
@@ -19,3 +23,4 @@ $smarty->setTemplateDir('/path/to/templates');
 $smarty->setCompileDir('/path/to/templates_c');
 $smarty->setCacheDir('/path/to/cache');
 $smarty->setConfigDir('/path/to/configs');
+
