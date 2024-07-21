@@ -39,6 +39,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/willdurand/geocoder" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/smarty/smarty" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpmailer/phpmailer" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -5,7 +5,8 @@
     "geocoder-php/google-maps-provider": "@stable",
     "symfony/http-client": "@stable",
     "google/cloud-billing": "@stable",
-    "smarty/smarty": "@stable"
+    "smarty/smarty": "@stable",
+    "phpmailer/phpmailer": "@stable"
   },
   "config": {
     "allow-plugins": {

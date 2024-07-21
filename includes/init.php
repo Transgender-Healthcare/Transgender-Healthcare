@@ -1,6 +1,12 @@
 <?php
 // include dependencies
-require_once '../vendor/autoload.php';
+require_once __DIR__ . "/../vendor/autoload.php";
+
+// autoload required classes
+spl_autoload_register(function ($class) {
+        $class = str_replace('\\', '/', strtolower($class));
+        require_once __DIR__ . '/../classes/' . $class . '.php';
+    });
 
 // include configuration
 require_once 'config.inc.php';
