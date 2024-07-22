@@ -1,6 +1,10 @@
 <?php
 session_start();
 
+// read .env INI file for configuration information
+global $settings;
+$settings = parse_ini_file('.env', true);
+
 // include dependencies
 require_once __DIR__ . "/../vendor/autoload.php";
 
@@ -12,7 +16,7 @@ spl_autoload_register(function ($class) {
 
 
 // setup PicoPDO
-$GLOBALS['_PICO_PDO'] = new PDO('mysql:host=localhost;dbname=tghc-dev', 'tghc-dev', ')8CcJTWQBzuYYb(g');
+$GLOBALS['_PICO_PDO'] = new PDO('mysql:host='.$settings['database']['hostname'].';dbname=tghc-dev', $settings['database']['username'], $settings['database']['password']);
 
 
 // initialize smarty
