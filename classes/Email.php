@@ -1,6 +1,9 @@
 <?php
 
+namespace TGHC;
+
 use PHPMailer\PHPMailer\PHPMailer;
+use TGHC\Utility;
 
 class Email
 {

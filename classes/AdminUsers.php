@@ -1,6 +1,7 @@
 <?php
 
-class Admin_Users extends \PicoORM
+namespace TGHC;
+class AdminUsers extends \PicoORM
 {
     public function setPassword($password) {
         $hash = password_hash($password,PASSWORD_DEFAULT);

@@ -1,5 +1,6 @@
 <?php
 
+namespace TGHC;
 class Utility
 {
     static public function generateRandomString($length = 10)
