@@ -1,6 +1,6 @@
 <?php
 
-namespace TGHC;
+namespace TransgenderHealthcare;
 class Attribute extends \PicoORM
 {
 

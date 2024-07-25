@@ -1,6 +1,6 @@
 <?php
 
-namespace TGHC;
+namespace TransgenderHealthcare;
 class Utility
 {
     static public function generateRandomString($length = 10)

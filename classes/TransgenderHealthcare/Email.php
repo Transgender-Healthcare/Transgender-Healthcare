@@ -1,6 +1,6 @@
 <?php
 
-namespace TGHC;
+namespace TransgenderHealthcare;
 
 use PHPMailer\PHPMailer\PHPMailer;
 

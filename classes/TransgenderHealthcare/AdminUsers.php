@@ -1,6 +1,6 @@
 <?php
 
-namespace TGHC;
+namespace TransgenderHealthcare;
 class AdminUsers extends \PicoORM
 {
     public function setPassword($password) {
