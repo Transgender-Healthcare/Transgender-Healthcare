@@ -80,5 +80,8 @@
             "require": "6.4.*",
             "docker": true
         }
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.34"
     }
 }
