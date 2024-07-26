@@ -27,7 +27,9 @@
         "symfony/twig-bundle": "6.4.*",
         "symfony/validator": "6.4.*",
         "symfony/yaml": "6.4.*",
-        "toshy/bunnynet-php": "^4.2"
+        "toshy/bunnynet-php": "^4.2",
+        "twig/extra-bundle": "^3.10",
+        "twig/inky-extra": "^3.10"
     },
     "config": {
         "allow-plugins": {
