@@ -17,32 +17,6 @@
 /*M!100616 SET @OLD_NOTE_VERBOSITY=@@NOTE_VERBOSITY, NOTE_VERBOSITY=0 */;
 
 --
--- Table structure for table `admin_users`
---
-
-DROP TABLE IF EXISTS `admin_users`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `admin_users` (
-  `id` varchar(255) NOT NULL,
-  `password_hash` varchar(255) NOT NULL,
-  `email_address` varchar(255) NOT NULL,
-  `display_name` varchar(255) DEFAULT NULL,
-  `two_factor_code` varchar(255) DEFAULT NULL,
-  UNIQUE KEY `user_id` (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `admin_users`
---
-
-LOCK TABLES `admin_users` WRITE;
-/*!40000 ALTER TABLE `admin_users` DISABLE KEYS */;
-/*!40000 ALTER TABLE `admin_users` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `location`
 --
 
@@ -146,4 +120,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*M!100616 SET NOTE_VERBOSITY=@OLD_NOTE_VERBOSITY */;
 
--- Dump completed on 2024-07-26 12:18:50
+-- Dump completed on 2024-07-26 13:53:11
