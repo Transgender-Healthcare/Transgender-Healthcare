@@ -2,7 +2,7 @@
 
 namespace TransgenderHealthcare;
 
-use PicoORM\PicoORM;
+use PaigeJulianne\PicoORM;
 
 class AdminUsers extends PicoORM
 {

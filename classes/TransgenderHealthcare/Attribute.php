@@ -2,8 +2,9 @@
 
 namespace TransgenderHealthcare;
 
-use PicoORM\PicoORM;
-class Attribute extends \PicoORM
+use PaigeJulianne\PicoORM;
+
+class Attribute extends PicoORM
 {
 
 
