@@ -6,7 +6,7 @@
     "symfony/http-client": "@stable",
     "google/cloud-billing": "@stable",
     "smarty/smarty": "@stable",
-    "phpmailer/phpmailer": "@stable"
+    "sendgrid/sendgrid": "@stable"
   },
   "config": {
     "allow-plugins": {
