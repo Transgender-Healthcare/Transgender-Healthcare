@@ -5,8 +5,9 @@
     "geocoder-php/google-maps-provider": "@stable",
     "symfony/http-client": "@stable",
     "google/cloud-billing": "@stable",
-    "smarty/smarty": "@stable",
-    "sendgrid/sendgrid": "@stable"
+    "sendgrid/sendgrid": "@stable",
+    "twig/twig": "@stable",
+    "pestphp/pest": "@stable"
   },
   "config": {
     "allow-plugins": {
