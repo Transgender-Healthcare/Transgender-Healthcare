@@ -5,9 +5,10 @@ Copyright &copy; 2024 Gender Directory Collective
 
 Licensed Under the [MIT license](LICENSE)
 
-All developers to follow the [Covenant Contributors Code of Conduct](CODE_OF_CONDUCT.md)
+Developer information can be found at https://doc.genderdirectory.com/developer-documentation/
 
 The development site is https://dev.genderdirectory.com/ and is refreshed anytime code is pushed to this repository.
+
 
 ------
 This project is the core code behind https://genderdirectory.com, a free, user-contributed, searchable, worldwide 
