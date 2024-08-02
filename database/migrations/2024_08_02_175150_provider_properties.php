@@ -10,8 +10,8 @@ return new class extends Migration {
         Schema::create('provider_properties', function (Blueprint $table) {
             $table->id()->autoIncrement();
             $table->bigInteger('provider_id')->unsigned();
-            $table->text('property_name');
-            $table->longText('property_value');
+            $table->string("property_name", 255);
+            $table->longText('property_value')->nullable();
         });
     }
 
