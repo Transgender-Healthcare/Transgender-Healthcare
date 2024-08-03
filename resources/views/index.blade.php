@@ -9,7 +9,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('assets/materialize/css/materialize.min.css') }}" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://use.typekit.net/hew0mbk.css">
+    {{-- <link rel="stylesheet" href="https://use.typekit.net/hew0mbk.css"> --}}
     
     <!-- Js -->
     <script src="{{ asset('assets/materialize/js/materialize.min.js') }}"></script>
