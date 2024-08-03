@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProviderController;
+use App\Http\Controllers\SearchDataController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +16,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    // return view('welcome');
+    return view('index');
 });
+
+Route::get('/search', [SearchDataController::class, 'index'])->name('search');
+Route::get('/elda-l-fisher', [SearchDataController::class, 'show'])->name('search-data');
