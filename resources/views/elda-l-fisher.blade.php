@@ -10,14 +10,14 @@
     <!-- Styles -->
     <link href="{{ asset('assets/materialize/css/materialize.min.css') }}" rel="stylesheet" type="text/css">
     {{-- <link rel="stylesheet" href="https://use.typekit.net/hew0mbk.css"> --}}
-    
+
     <!-- Js -->
     <script src="{{ asset('assets/materialize/js/materialize.min.js') }}"></script>
     <script src="{{ asset('assets/jquery/jquery-3.7.1.min.js') }}"></script>
-    
+
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
+
     <!-- Custom Styles -->
     <style>
         body {
@@ -67,9 +67,9 @@
 
     <hr/>
     <!-- InstanceBeginEditable name="Body" -->
-    
+
     <button class="rts"><a href="javascript:history.go(-1);">Return to Search</a></button>
-    
+
     <div class="row">
         <div class="col s12 m6 l4 center-align">
             <img src="{{ asset('assets/provider_images/elda-l-fisher-md-facs.jpg') }}">
@@ -88,7 +88,7 @@
             </p>
             <p><strong>Primary Phone:</strong>
                 <a href="tel:" title="This link will place a phone call to this number">+1
-                    919 684-4114 
+                    919 684-4114
                     <i class="material-icons">call</i>
                 </a>
             </p>
@@ -96,7 +96,7 @@
                 <a
                     href="https://www.dukehealth.org/find-doctors-physicians/elda-l-fisher-md-facs" target="_blank"
                     title="This link will open in a new window/tab">
-                    Duke University Medicine Profile 
+                    Duke University Medicine Profile
                     <i class="material-icons">launch</i>
                 </a>
             </p>
@@ -260,12 +260,6 @@
         M.AutoInit();
     </script>
 
-    <script>
-        function redirectToSurvey() {
-            url = "https://redcap.paigejulianne.com/surveys/?s=XTHRMJ7H7ADTM9EK&url=" + encodeURIComponent(location);
 
-            window.open(url, '_blank').focus();
-        }
-    </script>
 </body>
 </html>

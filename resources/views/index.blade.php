@@ -10,14 +10,14 @@
     <!-- Styles -->
     <link href="{{ asset('assets/materialize/css/materialize.min.css') }}" rel="stylesheet" type="text/css">
     {{-- <link rel="stylesheet" href="https://use.typekit.net/hew0mbk.css"> --}}
-    
+
     <!-- Js -->
     <script src="{{ asset('assets/materialize/js/materialize.min.js') }}"></script>
     <script src="{{ asset('assets/jquery/jquery-3.7.1.min.js') }}"></script>
-    
+
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
+
     <!-- Custom Styles -->
     <style>
         body {
@@ -47,17 +47,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="row">
-            <div class="col s12">
-                <div class="card-panel red center-align">
-                    <span class="white-text"><h4>This is a static mockup only and is not functional.</h4>
-                        <h6> There will be bugs and nonfunctional components.<br/>However, we welcome any and all feedback!<br/><br/>
-                            <a  href="" onclick="redirectToSurvey();" class="yellow-text">Click here to leave us your anonymous feedback</a>
-                        </h6>
-                    </span>
-                </div>
-            </div>
-        </div>
+
 
         <div class="row center-align">
             <header>
@@ -124,12 +114,6 @@
         M.AutoInit();
     </script>
 
-    <script>
-        function redirectToSurvey() {
-            url = "https://redcap.paigejulianne.com/surveys/?s=XTHRMJ7H7ADTM9EK&url=" + encodeURIComponent(location);
 
-            window.open(url, '_blank').focus();
-        }
-    </script>
 </body>
 </html>
