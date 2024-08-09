@@ -1,0 +1,6 @@
+{
+  "require": {
+    "paigejulianne/picoorm": "@dev",
+    "twig/twig": "@stable"
+  }
+}
