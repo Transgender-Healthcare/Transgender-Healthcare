@@ -1,6 +1,11 @@
 {
   "require": {
-    "paigejulianne/picoorm": "@dev",
-    "twig/twig": "@stable"
+    "doctrine/orm": "^3",
+    "doctrine/dbal": "^4",
+    "symfony/cache": "^7",
+    "twig/twig": "@stable",
+    "doctrine/migrations": "^3",
+    "doctrine/sql-formatter": "^1.4",
+    "symfony/yaml": "^7.1"
   }
 }
