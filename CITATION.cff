@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: GenderDirectory.com
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - name: Gender Directory Collective
+    email: contact@genderdirectory.com
+identifiers:
+  - type: url
+    value: 'https://genderdirectory.com/'
+repository-code: 'https://github.com/genderdirectory/genderdirectory'
+url: 'https://genderdirectory.com/'
+abstract: >-
+  This is the main source code that  powers the
+  https://genderdirectory.com/ website
+license: MIT
